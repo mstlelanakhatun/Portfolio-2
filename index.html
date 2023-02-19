@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Porfolio</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" type="images/x-icon" href="images/favicon.jpg">
+    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.min.css">
+  </head>
+  <body>
+    <!-- navigation -->
+    <section id="navigation">
+      <nav class="navbar">
+        <div class="container navbar-container">
+          <a href="/" class="nav-brand">Lelana</a>
+
+          <input type="checkbox" id="nav-toggle" />
+          <label class="btn btn-secondary nav-menu" for="nav-toggle">
+            <i class="fas fa-bars fa-2x" id="nav-open"></i>
+            <i class="fas fa-times fa-2x" id="nav-close"></i>
+          </label>
+
+          <ul class="nav-items">
+            <li class="nav-item">
+              <a href="#navigation" class="nav-link"
+                ><i class="fas fa-home"></i>Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link"> About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#clients" class="nav-link">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+      <div class="container hero-container">
+        <div class="row">
+          <div class="col">
+            <div class="hero-image">
+              <img src="images/Lelana Formal Remove BG.png" alt="Lelana's photo" />
+            </div>
+          </div>
+          <div class="col">
+            <div class="hero-content">
+              <h1 class="title">Hi! I'm Mst.Lelana Khatun</h1>
+              <p class="description">
+                I am a <span class="designition">CSE (Computer Science & Engineering ) gradate Web Developer</span>. I have
+                designed many websites using <span class="lang">html5</span>,
+                <span class="lang">css3</span> &
+                <span class="lang">javascript</span>. <br />
+                I've made beautiful websites using Bootstrap and JS plugins.
+              </p>
+              <a href="#contact" class="btn btn-primary">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills -->
+    <section id="skills">
+      <div class="container skill-container">
+        <div class="row">
+          <div class="col">
+            <div class="skill-content">
+              <h1>My Experties</h1>
+              <div class="skill-item">
+                <i class="fab fa-django"></i>
+                <div class="skill-details">
+                  <h4>Django</h4>
+                  <p>
+                    I completed my internship on Django from Jalalabad Gas Transmission and Distribution System Limited, Sylhet.I was there for 3 months and did a full project with their experienced IT team.
+                  </p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-html5 fa-css3"></i>
+                <div class="skill-details">
+                  <h4>HTML5 & CSS3</h4>
+                  <p>I have completed 40+ projects in HTML &  Made eye catching, beautiful websites using css3.</p>
+                </div>
+              </div>
+              <div class="skill-item">
+                <i class="fab fa-js"></i>
+                <div class="skill-details">
+                  <h4>javascript</h4>
+                  <p>
+                    Working with javascript to make real interactive websites.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-col">
+            <div class="skill-img">
+              <img src="images/Coding.png" alt="skill illustration" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section id="projects">
+      <h1 class="section-title">Recent Works</h1>
+      <div class="container project-container">
+        <div class="row">
+          <div class="col project-item">
+            <a href="#site1" title="view site">
+              <img src="images/website2.png" alt="recent work two" />
+              <p>Surfing school website</p>
+            </a>
+          </div>
+          <div class="col project-item">
+            <a href="#site2" title="view site">
+              <img src="images/website4.png" alt="recent work two" />
+              <p>Web design agency porfolio</p>
+            </a>
+          </div>
+          <div class="col project-item">
+            <a href="#site3" title="view site">
+              <img src="images/website3.png" alt="recent work one" />
+              <p>Community ping pong Center</p>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col project-item">
+            <a href="#site1" rel="modal:open" title="view site">
+              <img src="images/website1.png" alt="recent work one" />
+              <p>Natrual carbon resourse website</p>
+            </a>
+          </div>
+          <div class="col project-item">
+            <a href="#site2" rel="modal:open" title="view site">
+              <img src="images/website4.png" alt="recent work two" />
+              <p>Web design agency porfolio</p>
+            </a>
+          </div>
+          <div class="col project-item">
+            <a href="#site3" rel="modal:open" title="view site">
+              <img src="images/website3.png" alt="recent work one" />
+              <p>Community ping pong Center</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- clients -->
+    <section id="clients">
+      <!--heading------->
+      <h3 class="section-title">Client's Say</h3>
+      <!--client-box-container--------------->
+      <div class="c-box-container">
+        <!--box-1----->
+        <div class="client-box">
+          <!--img-------->
+          <img src="images/team.jpg" />
+          <!--stars/reviews---------->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <!--details/comment------>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi sunt
+            veniam, ratione perferendis hic quis exercitationem repudiandae
+            delectus quasi. Quod unde modi repudiandae ratione hic.
+          </p>
+          <!--btn--------->
+          <a href="#!" class="btn">Read More</a>
+        </div>
+        <!--box-2----->
+        <div class="client-box">
+          <!--img-------->
+          <img src="images/team.jpg" />
+          <!--stars/reviews---------->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <!--details/comment------>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            iure ad consequuntur fugiat, aliquam vero recusandae? Vero facere
+            nesciunt neque, beatae delectus atque nobis provident minus?
+            Aspernatur et velit sunt quo maxime sed voluptatum?
+          </p>
+          <!--btn--------->
+          <a href="#!" class="btn">Read More</a>
+        </div>
+
+        <!--box-3----->
+        <div class="client-box">
+          <!--img-------->
+          <img src="images/team.jpg" />
+          <!--stars/reviews---------->
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <!--details/comment------>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Temporibus, architecto sequi, harum iste aut voluptas cupiditate, et
+            minima totam eligendi sed eveniet est officiis saepe facilis ab?
+            Modi, praesentium labore?
+          </p>
+          <!--btn--------->
+          <a href="#!" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact  -->
+    <section id="contact">
+      <div class="container contact-container">
+        <h1 class="section-title">Contact Me</h1>
+        <div class="row">
+          <div class="col contact-info">
+            <div class="contact-item">
+              <h3>Adil Rashid</h3>
+              <p>Web designer, Tech Enthusiast, Freelancer.</p>
+            </div>
+            <div class="contact-item">
+              <h3>Address</h3>
+              <address>34th street, Jakson Heights, New York, USA</address>
+            </div>
+            <div class="contact-item">
+              <h3>Email</h3>
+              <p>adilrashid1@ar.com</p>
+            </div>
+            <div class="contact-item">
+              <h3>Mobile Number</h3>
+              <p>+123-567235</p>
+            </div>
+            <div class="contact-item">
+              <h3>Follow Me</h3>
+              <a href="#!">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#!">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#!">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#!">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col contact-form">
+            <form>
+              <div class="form-control">
+                <label for="name" class="form-label">Fullname</label>
+                <input type="text" id="name" class="form-input" />
+              </div>
+              <div class="form-control">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-input" />
+              </div>
+              <div class="form-control">
+                <label for="name" class="form-label">Subject</label>
+                <input type="text" id="subject" class="form-input" />
+              </div>
+              <div class="form-control">
+                <label for="name" class="form-label">Message</label>
+                <textarea id="message" rows="3" class="form-input"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary form-btn">
+                <i class="fas fa-paper-plane"></i>
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <p class="footer-text">&copy;Adil Rashid Portfolio - 2021</p>
+    </footer>
+  </body>
+</html>
